@@ -1,4 +1,4 @@
-# 👶 新生儿养育指南 · AI Skill
+# 新人养成指南
 
 > 新手爸妈 0-6 月龄养育指南 skill，可装进 Claude / Cursor 等 AI 助手，随问随答。
 
@@ -6,7 +6,7 @@
 - **9 大类、42 个子主题**：孕期与分娩准备、产后恢复与家庭支持、喂养、睡眠、哭闹安抚、日常护理、生长发育、安全出行、母婴用品。
 - **统一结构**：每个子主题都包含 概述 / 适用月龄 / **判断要点** / **操作步骤** / **常见误区** / **就医指征** / 来源。
 - **证据分级**：每条内容标注【博主经验】或【通用医学共识】，经验和共识一眼区分。
-- **安全校正**：与 WHO / AAP 等主流建议不一致的做法已修正，例如：
+- **安全校正**：与 WHO / AAP 等主流建议不一致的做法已修正，文件夹命名为 `newborn-care-guide`，例如：
   - 冲配方奶用 ≥70°C 的水（WHO）
   - 始终仰睡，不用斜坡床、定位枕；同房不同床
   - 出现翻身迹象即停止包裹，包裹需给髋部留空间
@@ -15,10 +15,10 @@
   - 绝不摇晃婴儿；避免过热
 
 ## 安装
-把整个 `newborn-care-guide/` 文件夹（含 `SKILL.md` 和 `references/`）复制到你的 AI 助手的 skills 目录，例如：
+把本仓库（含 `SKILL.md` 和 `references/`）放到你的 AI 助手的 skills 目录，文件夹命名为 `newborn-care-guide`，例如：
 ```bash
-git clone https://github.com/Gmy-678/newborn-care-guide.git
-cp -r newborn-care-guide ~/.claude/skills/
+git clone https://github.com/Gmy-678/xinren-yangcheng-zhinan.git ~/.claude/skills/newborn-care-guide
+rm -rf ~/.claude/skills/newborn-care-guide/.git  # 可选
 ```
 其他支持 skills 的工具，放到对应 skills 目录即可。
 
